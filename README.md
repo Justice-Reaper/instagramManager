@@ -10,9 +10,8 @@ A Python script to manage Instagram posts using the instagrapi library. Features
 
 # Usage
 ```
-git clone https://github.com/Justice-Reaper/instagram-manager.git
-cd instagram-manager
 pip install instagrapi
+git clone https://github.com/Justice-Reaper/instagramManager.git
 python instagramManager.py -u <username> -p <password> -f <function>
 ```
 
