@@ -39,52 +39,52 @@ Functions:
 Retrieve the number of posts for the specified Instagram account using the `getPosts` function
 
 ```
-# python instagramManager.py -u 'pentestingacademy2' -p 'Ser.ab.20021' -f getPosts
+# python instagramManager.py -u 'pentestingacademy2' -p 'Testing' -f getPosts
 ```
 
 # Post Deletion
 Delete all posts with the `removePosts all` command
 
 ```
-# python instagramManager.py -u 'pentestingacademy2' -p 'Ser.ab.20021' -f removePosts all
+# python instagramManager.py -u 'pentestingacademy2' -p 'Testing' -f removePosts all
 ```
 
 Delete a specific post by providing its ID with `removePosts <post_id>`
 
 ```
-# python instagramManager.py -u 'pentestingacademy2' -p 'Ser.ab.20021' -f removePosts 0
+# python instagramManager.py -u 'pentestingacademy2' -p 'Testing' -f removePosts 0
 ```
 
 Delete a range of posts by specifying the lower and upper bounds with `removePosts <range_lower> <range_upper>`
 
 ```
-# python instagramManager.py -u 'pentestingacademy2' -p 'Ser.ab.20021' -f removePosts 0 2
+# python instagramManager.py -u 'pentestingacademy2' -p 'Testing' -f removePosts 0 2
 ```
 
 # Post Upload
 Upload a single post with an image or video and a caption using the `uploadPost` function
 
 ```
-# python instagramManager.py -u 'pentestingacademy2' -p 'Ser.ab.20021' -f uploadPost image.jpg 'testing'
+# python instagramManager.py -u 'pentestingacademy2' -p 'Testing' -f uploadPost image.jpg 'testing'
 ```
 
 # Post Download
 Download all posts with the `downloadPosts all` command, saving images/videos to `posts/images/` and captions to `posts/descriptions.txt`
 
 ```
-# python instagramManager.py -u 'pentestingacademy2' -p 'Ser.ab.20021' -f downloadPosts all
+# python instagramManager.py -u 'pentestingacademy2' -p 'Testing' -f downloadPosts all
 ```
 
 Download a specific post by providing its ID with `downloadPosts <post_id>`
 
 ```
-# python instagramManager.py -u 'pentestingacademy2' -p 'Ser.ab.20021' -f downloadPosts 0
+# python instagramManager.py -u 'pentestingacademy2' -p 'Testing' -f downloadPosts 0
 ```
 
 Download a range of posts by specifying the lower and upper bounds with `downloadPosts <range_lower> <range_upper>`
 
 ```
-#  python instagramManager.py -u 'pentestingacademy2' -p 'Ser.ab.20021' -f downloadPosts 0 2
+#  python instagramManager.py -u 'pentestingacademy2' -p 'Testing' -f downloadPosts 0 2
 ```
 
 # Upload from Files
@@ -93,17 +93,17 @@ Upload posts from local files using the `uploadFromFiles` function. Expects imag
 Upload all posts with `uploadFromFiles all`
 
 ```
-# python instagramManager.py -u 'pentestingacademy2' -p 'Ser.ab.20021' -f uploadFromFiles all
+# python instagramManager.py -u 'pentestingacademy2' -p 'Testing' -f uploadFromFiles all
 ```
 
 Upload a specific post by providing its ID with `uploadFromFiles <post_id>`
 
 ```
-# python instagramManager.py -u 'pentestingacademy2' -p 'Ser.ab.20021' -f uploadFromFiles 0
+# python instagramManager.py -u 'pentestingacademy2' -p 'Testing' -f uploadFromFiles 0
 ```
 
 Upload a range of posts by specifying the lower and upper bounds with `uploadFromFiles <range_lower> <range_upper>`
 
 ```
-# python instagramManager.py -u 'pentestingacademy2' -p 'Ser.ab.20021' -f uploadFromFiles 0 2
+# python instagramManager.py -u 'pentestingacademy2' -p 'Testing' -f uploadFromFiles 0 2
 ```
